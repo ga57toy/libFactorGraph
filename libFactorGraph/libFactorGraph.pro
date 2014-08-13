@@ -6,15 +6,26 @@
 
 QT       -= gui
 
-TARGET = libFactorGraph
+TARGET = FactorGraph
 TEMPLATE = lib
 
 DEFINES += LIBFACTORGRAPH_LIBRARY
 
-SOURCES += libfactorgraph.cpp
+SOURCES += libfactorgraph.cpp \
+    cfactor.cpp \
+    utils.cpp \
+    cpmf.cpp \
+    cnode.cpp \
+    cmessage.cpp
 
 HEADERS += libfactorgraph.h\
-        libfactorgraph_global.h
+        libfactorgraph_global.h \
+    cfactor.h \
+    utils.h \
+    cpmf.h \
+    cnode.h \
+    cmessage.h \
+    fgcommon.h
 
 unix:!symbian {
     maemo5 {

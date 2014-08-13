@@ -1,6 +1,6 @@
 #include "libfactorgraph.h"
 
 
-LibFactorGraph::LibFactorGraph()
+FactorGraph::FactorGraph()
 {
 }

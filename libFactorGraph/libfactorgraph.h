@@ -3,11 +3,13 @@
 
 #include "libfactorgraph_global.h"
 
-class LIBFACTORGRAPHSHARED_EXPORT LibFactorGraph
+class LIBFACTORGRAPHSHARED_EXPORT FactorGraph
 {
     
 public:
-    LibFactorGraph();
+    FactorGraph();
 };
+
+
 
 #endif // LIBFACTORGRAPH_H
